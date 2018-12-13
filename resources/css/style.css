@@ -9,6 +9,8 @@
             box-sizing: border-box;
 }
 
+html { scroll-behavior: smooth;}
+
 html,
 body {
     background-color:  #fff;
@@ -17,7 +19,7 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .clearfix {zoom: 1}
