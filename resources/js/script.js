@@ -37,4 +37,22 @@ $(document).ready(function() {
         offset: '50%'
     });
 
+
+
+    /* Mobile nav */
+
+    $('.js--nav-icon').click(function () {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+
+        nav.slideToggle(200);
+
+        if(icon.attr("class") === 'ion-md-menu') {
+            icon.attr("class", 'ion-md-close');
+        } else {
+            icon.attr("class", 'ion-md-menu');
+        }
+
+    });
+
 });
